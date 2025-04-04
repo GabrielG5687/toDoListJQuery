@@ -1,39 +1,36 @@
-# ToDo List com jQuery
+# To-Do List with jQuery
 
-Este é um projeto simples de lista de tarefas (ToDo List) desenvolvido com HTML, CSS e JavaScript, utilizando a biblioteca jQuery para manipulação do DOM e eventos.
+Este projeto é uma aplicação de lista de tarefas (To-Do List) desenvolvida utilizando **jQuery**. O objetivo é criar uma interface interativa e dinâmica para gerenciar tarefas de forma simples e eficiente.
 
 ## Funcionalidades
 
-- **Adicionar Tarefa**: Permite adicionar uma nova tarefa com título e descrição.
-- **Editar Tarefa**: Possibilidade de editar o título e a descrição de uma tarefa existente.
-- **Excluir Tarefa**: Opção para excluir uma tarefa da lista com confirmação.
-- **Interface Responsiva**: Design simples e funcional, adaptado para diferentes tamanhos de tela.
+- Adicionar novas tarefas.
+- Marcar tarefas como concluídas.
+- Remover tarefas da lista.
+- Interface amigável e responsiva.
 
 ## Tecnologias Utilizadas
 
-- **HTML**: Estrutura da aplicação.
-- **CSS**: Estilização da interface.
-- **JavaScript (jQuery)**: Lógica da aplicação e manipulação do DOM.
+- **HTML5**: Estrutura da aplicação.
+- **CSS3**: Estilização e layout.
+- **jQuery**: Manipulação do DOM e interatividade.
 
+## Como Executar
 
-### Arquivos Principais
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/todolist-jquery.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd todolist-jquery
+    ```
+3. Abra o arquivo `index.html` em seu navegador.
 
-1. **`index.html`**:
-   - Contém o layout da aplicação, incluindo:
-     - Campo de entrada para título e descrição.
-     - Botão para adicionar tarefas.
-     - Modais para edição e exclusão de tarefas.
+## Contribuição
 
-2. **`styles.css`**:
-   - Define o estilo visual da aplicação:
-     - Tema escuro com destaques em laranja.
-     - Estilização de botões, modais e lista de tarefas.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-3. **`script.js`**:
-   - Implementa a lógica da aplicação:
-     - Adicionar, editar e excluir tarefas.
-     - Manipulação do DOM com jQuery.
-     - Gerenciamento de eventos, como cliques nos botões.
+## Licença
 
-Autor: Gabriel Rodrigues
-Data: Abril de 2025 ```
+Este projeto está licenciado sob a [MIT License](LICENSE).
